@@ -1,0 +1,356 @@
+[
+  {
+    "id": "3",
+    "name": "FriendService",
+    "dateCreated": 1467950400000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [],
+    "ownerUsers": [
+      {
+        "id": 11,
+        "userId": "dogbowl",
+        "dateCreated": 1525998189000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": 65,
+        "userId": "maugli",
+        "dateCreated": 1543381200000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": 6,
+        "userId": "minmouse",
+        "dateCreated": 1525752000000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": 14,
+        "userId": "farkle1",
+        "dateCreated": 1526443200000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "PlaceService",
+    "dateCreated": 1493243454000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [
+      {
+        "id": "4",
+        "apiKey": "q6H9NfRgiq50O4N9nP2E5Alg678Ko9l2",
+        "dateCreated": 1493179200000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ],
+    "ownerUsers": [
+      {
+        "id": "66",
+        "userId": "whammo",
+        "dateCreated": 1543452858000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "3",
+        "userId": "ren",
+        "dateCreated": 1524016106000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "16",
+        "userId": "stimpy",
+        "dateCreated": 1526443200000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "GeoService",
+    "dateCreated": 1467980376000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [
+      {
+        "id": "2",
+        "apiKey": "VYnlTykriB2zM7LZz4C21xDRE4ytBTU8",
+        "dateCreated": 1467980413000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ],
+    "ownerUsers": [
+      {
+        "id": "15",
+        "userId": "minmouse",
+        "dateCreated": 1526443200000,
+        "createdBy": "courcat",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "TestService",
+    "dateCreated": 1539835200000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [
+      {
+        "id": "666",
+        "apiKey": "ARNl-PF2n-7ftV-Z68n-EY",
+        "dateCreated": 1525124713000,
+        "createdBy": "hkphooey",
+        "dateArchived": 1540904866000,
+        "archivedBy": "anonymousUser"
+      },
+      {
+        "id": "6",
+        "apiKey": "TEST-KEY",
+        "dateCreated": 1525124713000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ],
+    "ownerUsers": [
+      {
+        "id": "22",
+        "userId": "beagle3",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "20",
+        "userId": "beagle2",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "21",
+        "userId": "beagle1",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "23",
+        "userId": "scrooge",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "24",
+        "userId": "gyro",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "ArchivedService",
+    "dateCreated": 1539835200000,
+    "createdBy": "courcat",
+    "dateArchived": 1539835200000,
+    "archivedBy": "minmouse",
+    "apiKeys": [],
+    "ownerUsers": [
+      {
+        "id": "22",
+        "userId": "goofy",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "20",
+        "userId": "bluto",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "21",
+        "userId": "whammo",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "23",
+        "userId": "ren",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "24",
+        "userId": "stimpy",
+        "dateCreated": 1539835200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "ReportService",
+    "dateCreated": 1455744691000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [
+      {
+        "id": "3",
+        "apiKey": "mBosdf000ZZaviv23JJJmmbooQB",
+        "dateCreated": 1455685200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "1",
+        "apiKey": "SNl-PF2n-7ftVNl-PF2n-7ftV-Z68n-EY",
+        "dateCreated": 1455744711000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ],
+    "ownerUsers": [
+      {
+        "id": "10",
+        "userId": "ren",
+        "dateCreated": 1525998187000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "64",
+        "userId": "whammo",
+        "dateCreated": 1543381200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "2",
+        "userId": "minmouse",
+        "dateCreated": 1520295239000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "13",
+        "userId": "minmouse",
+        "dateCreated": 1526943511000,
+        "createdBy": "maugli",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "12",
+        "userId": "farkle1",
+        "dateCreated": 1526491257000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "AlertService",
+    "dateCreated": 1525124684000,
+    "createdBy": "hkphooey",
+    "dateArchived": null,
+    "archivedBy": null,
+    "apiKeys": [
+      {
+        "id": "6",
+        "apiKey": "Nl-PF2n-7ftV-Z68n-Y",
+        "dateCreated": 1525124713000,
+        "createdBy": "hkphooey",
+        "dateArchived": 1540904866000,
+        "archivedBy": "anonymousUser"
+      },
+      {
+        "id": "5",
+        "apiKey": "RENl-PF2n-7ftV-Z68n-_KEY",
+        "dateCreated": 1525124713000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ],
+    "ownerUsers": [
+      {
+        "id": "19",
+        "userId": "minmouse",
+        "dateCreated": 1534353593000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "9",
+        "userId": "maugli",
+        "dateCreated": 1525752000000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      },
+      {
+        "id": "18",
+        "userId": "dogbowl",
+        "dateCreated": 1526443200000,
+        "createdBy": "hkphooey",
+        "dateArchived": null,
+        "archivedBy": null
+      }
+    ]
+  }
+]

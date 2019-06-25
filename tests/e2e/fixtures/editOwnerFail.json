@@ -1,0 +1,7 @@
+{
+  "timestamp": 1546965064963,
+  "status": 409,
+  "error": "Conflict",
+  "message": "Conflict: Owner with the name, 'FriendService', already exists in table.",
+  "path": "/owner-service/api/admin/v1/owners/61"
+}

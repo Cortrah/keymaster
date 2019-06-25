@@ -1,0 +1,7 @@
+{
+  "timestamp": 1546963440925,
+  "status": 409,
+  "error": "Conflict",
+  "message": "Conflict: User, courcat, is already assigned to given owner.",
+  "path": "/owner-service/api/admin/v1/users"
+}A

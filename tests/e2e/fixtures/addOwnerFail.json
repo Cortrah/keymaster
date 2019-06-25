@@ -1,0 +1,7 @@
+{
+  "timestamp": 1546962942644,
+  "status": 409,
+  "error": "Conflict",
+  "message": "Conflict: Owner, courcat, already exists in the table.",
+  "path": "/owner-service/api/admin/v1/owners/"
+}

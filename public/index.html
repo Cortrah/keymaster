@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+
+  <!-- Our Customized Bootstrap Styles -->
+  <link href="https://eservices.nysed.gov/nysed-assets/stylesheets/1.0/nysed-bootstrap.css"
+        media="all" rel="stylesheet">
+
+  <!-- Application Specific Overrides -->
+  <style>
+    .hero-content {
+      border-color: #045caa;
+      padding-top: 0;
+    }
+
+    .panel {
+      margin: 0;
+      padding: 0;
+    }
+    .row {
+      margin: 0;
+    }
+    .panel-secondary.panel-heading{
+      background-color: #F8F8F8;
+      padding: 0;
+      margin: 10px;
+      border: solid #ddd 1px;
+    }
+    .input-group {
+      margin: 5px 10px 5px 10px;
+    }
+    .api-key-item {
+      margin:10px 10px 10px 10px;
+    }
+    .spacer-trim {
+      margin: 0;
+    }
+    .spacer-loose {
+      margin: 5px;
+      padding: 5px;
+    }
+    .spacer-right {
+      margin-right: 10px;
+    }
+    .spacer-left {
+      margin-left: 10px;
+    }
+  </style>
+
+  <title>owner list app</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row">
+        <img src="img/owen.png" style="float:right;" alt="An image of a sea otter with a lock and holding a chain of keys.">
+      </div>
+
+      <div class="hero-content">
+        <div id="ownerListApp"></div>
+      </div>
+    </div>
+  </div>
+
+  <noscript>
+    <strong>
+      We're sorry but panel-edit-list doesn't work properly without JavaScript enabled.
+      Please enable it to continue.
+    </strong>
+  </noscript>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="list-inline text-center footer-links">
+          <li class="active">
+            <a href="https://vuejs.org/v2/guide/index.html">
+              vue
+            </a>
+          </li>
+          <li class="active">
+            <a href="https://vue-test-utils.vuejs.org/api/options.html#propsdata">
+              vue test utils
+            </a>
+          </li>
+          <li>
+            <a href="https://jestjs.io/docs/en/expect">
+              jest
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.cypress.io/guides/core-concepts/introduction-to-cypress.html#Cypress-Is-Simple">
+              cypress
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

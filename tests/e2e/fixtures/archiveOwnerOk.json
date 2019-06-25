@@ -1,0 +1,28 @@
+{
+  "id": 143,
+  "name": "ArchivedService",
+  "dateCreated": 1546963018000,
+  "createdBy": "hkphooey",
+  "dateArchived": 1546963604395,
+  "archivedBy": "hkphooey",
+  "apiKeys": [
+    {
+      "id": 181,
+      "apiKey": "nvs8QSNl-PF2n-7ftV-Z68n-KjvJ9f23wh9T",
+      "dateCreated": 1546963189000,
+      "createdBy": "hkphooey",
+      "dateArchived": 1546963243000,
+      "archivedBy": "hkphooey"
+    }
+  ],
+  "ownerUsers": [
+    {
+      "id": 124,
+      "userId": "minmouse",
+      "dateCreated": 1546963411000,
+      "createdBy": "hkphooey",
+      "dateArchived": 1546963546000,
+      "archivedBy": "hkphooey"
+    }
+  ]
+}
