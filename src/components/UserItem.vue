@@ -2,21 +2,35 @@
 
     <span class="row spacer-trim">
 
-         <div class="input-group gogo">
+         <div class="input-group">
             <input type="text"
                    class="form-control" placeholder="LDAP userId/Username"
                    v-model="user.userId">
             <span class="input-group-btn">
                 <button type="button"
-                        class="btn btn-success"
+                        class="btn btn-success spacer-right"
                         @click.stop.prevent="updateUserName()">
                     Save
                 </button>
+
+                <dropdown id="otherOwners">
+                  <btn type="default">
+                      Other Owners
+                  </btn>
+                  <btn type="default" class="dropdown-toggle"><span class="caret"></span></btn>
+                  <template slot="dropdown">
+                    <li v-for='(owner, index) in this.$store.getters.getUserOwners(user.userId)' :key="index">
+                        <a role="button" @click="editOwner(owner)">
+                            {{ owner.name }}
+                        </a>
+                    </li>
+                  </template>
+                </dropdown>
             </span>
 
             <span class="pull-right">
                 <button @click.stop.prevent="addPermission()"
-                        class="btn btn-info">
+                        class="btn btn-info spacer-right">
                     <i class="fas fa-plus-circle"></i>
                     Permission
                 </button>
@@ -51,6 +65,7 @@
     import UpdateUserName from "../commands/UpdateUserName";
     import ArchiveUser from "../commands/ArchiveUser";
     import AddPermissionToUser from "../commands/AddPermissionToUser";
+    import Goto from "../commands/Goto";
 
     export default {
 
@@ -112,6 +127,16 @@
                         });
                     }
                 )
+            },
+
+            editOwner: function(owner) {
+                this.$store.dispatch({
+                    type: 'onDispatch',
+                    command: new Goto({
+                        name:'EditOwner',
+                        params: owner,
+                    })
+                });
             },
 
             modalCallback (msg) {

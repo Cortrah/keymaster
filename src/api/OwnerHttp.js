@@ -34,3 +34,17 @@ export function archiveOwner(id) {
         url: "/owners/" + id,
     });
 }
+
+/**
+ * Revive an archived owner by its id
+ */
+export function reviveOwner(id) {
+    return axios({
+        data: null,
+        headers: {
+            "Content-Type": "application/json",
+        },
+        method: "put",
+        url: "/owners/" + id,
+    });
+}

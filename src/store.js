@@ -13,6 +13,18 @@ export default new Vuex.Store({
         editingOwner: state => (ownerId) =>{
             let indexById = state.owners.findIndex( owner => owner.id == ownerId);
             return state.owners[indexById];
+        },
+        getUserOwners: state => (userId) => {
+            let userOwners = [];
+            state.owners.filter( owner => {
+                owner.ownerUsers.find( user => {
+                    if(user.userId === userId){
+                        userOwners.push(owner);
+                    }
+                    return user.userId === userId;
+                });
+            });
+            return userOwners;
         }
     },
     actions: {

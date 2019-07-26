@@ -44,7 +44,7 @@
                    v-validate="'required'"
                    class="form-control"
                    v-bind:class="{ 'has-error' : errors.has('Owner Name') }"/>
-            <div  v-if="errors.has('Owner Name')"class="alert alert-danger text-center">
+            <div v-if="errors.has('Owner Name')"class="alert alert-danger text-center">
                 {{ errors.first('Owner Name') }}
             </div>
         </modal>
@@ -81,6 +81,14 @@
                     "archivedBy": null,
                     "apiKeys": [],
                     "ownerUsers": [
+                        {
+                            "id": '22',
+                            "userId": "beagle3",
+                            "dateCreated": 1539835200000,
+                            "createdBy": "hkphooey",
+                            "dateArchived": null,
+                            "archivedBy": null
+                        },
                         {
                             "id": 11,
                             "userId": "dogbowl",
@@ -134,6 +142,14 @@
                     ],
                     "ownerUsers": [
                         {
+                            "id": '22',
+                            "userId": "beagle3",
+                            "dateCreated": 1539835200000,
+                            "createdBy": "hkphooey",
+                            "dateArchived": null,
+                            "archivedBy": null
+                        },
+                        {
                             "id": '66',
                             "userId": "whammo",
                             "dateCreated": 1543452858000,
@@ -177,6 +193,14 @@
                         }
                     ],
                     "ownerUsers": [
+                        {
+                            "id": '22',
+                            "userId": "beagle3",
+                            "dateCreated": 1539835200000,
+                            "createdBy": "hkphooey",
+                            "dateArchived": null,
+                            "archivedBy": null
+                        },
                         {
                             "id": '15',
                             "userId": "minmouse",

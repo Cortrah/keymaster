@@ -7,12 +7,19 @@
                         <th class="control-label col-sm-4">Owner</th>
                         <th class="control-label col-sm-2">Api Keys</th>
                         <th class="control-label col-sm-2">Users</th>
-                        <td class="col-sm-4 center-block"></td>
+                        <td class="col-sm-4 center-block" align="center">
+                            <a name="archivedToggleBtn"
+                                    type="button" class="btn btn-link"
+                                    v-model="showArchived" @click="toggleArchived()">
+                                {{showArchived ? 'Hide Archived' : 'Show Archived'}}
+                            </a>
+                        </td>
                     </tr>
                 </thead>
                 <tbody v-for='(owner, index) in (ownerItems)' :key="owner.id">
-                    <owner-item v-if="owner.dateArchived == null"
+                    <owner-item v-if="showArchived || owner.dateArchived == null"
                                 :id="owner.id"
+                                :showArchived = showArchived
                                 :owner='ownerItems[index]'>
                     </owner-item>
                 </tbody>
@@ -33,10 +40,22 @@
             OwnerItem
         },
 
+        data () {
+            return {
+                showArchived: false
+            }
+        },
+
         computed: {
             ownerItems () {
                 return this.$store.state.owners
             }
         },
+
+        methods:{
+            toggleArchived: function() {
+                this.showArchived = !this.showArchived;
+            }
+        }
     }
 </script>
