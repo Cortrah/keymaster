@@ -27,14 +27,6 @@
                 <i class="fas fa-minus-circle"></i>
                 Archive
             </button>
-
-            <button v-if="showArchived && owner.dateArchived !== null"
-                    :id="'reviveOwnerItemBtn_' + id"
-                    @click="reviveOwner()"
-                    class="btn btn-sm btn-warning">
-                <i class="fas fa-plus-circle"></i>
-                Revive
-            </button>
         </td>
     </tr>
 </template>
@@ -42,8 +34,6 @@
 <script>
     import Goto from '../commands/Goto';
     import ArchiveOwner from "../commands/ArchiveOwner";
-    import ReviveOwner from "../commands/ReviveOwner";
-
     export default {
         name: 'OwnerItem',
         props: {
@@ -71,34 +61,6 @@
                 this.$store.dispatch({
                     type: 'onDispatch',
                     command: new ArchiveOwner(this.owner)
-                }).then(
-                    result => {
-                        this.$notify({
-                            type: 'success',
-                            icon: '',
-                            title: 'Success:',
-                            content: 'Successfully Archived Owner',
-                            placement: 'bottom-right',
-                            duration: 2000,
-                        });
-                    }
-                ).catch(
-                    error => {
-                        this.$notify({
-                            type: 'danger',
-                            icon: '',
-                            title: 'Error:',
-                            content: 'Archiving Owner Failed.',
-                            placement: 'bottom-right',
-                            duration: 0,
-                        });
-                    }
-                );
-            },
-            reviveOwner: function() {
-                this.$store.dispatch({
-                    type: 'onDispatch',
-                    command: new ReviveOwner(this.owner)
                 }).then(
                     result => {
                         this.$notify({

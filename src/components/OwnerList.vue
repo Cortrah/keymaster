@@ -7,13 +7,7 @@
                         <th class="control-label col-sm-4">Owner</th>
                         <th class="control-label col-sm-2">Api Keys</th>
                         <th class="control-label col-sm-2">Users</th>
-                        <td class="col-sm-4 center-block" align="center">
-                            <a name="archivedToggleBtn"
-                                    type="button" class="btn btn-link"
-                                    v-model="showArchived" @click="toggleArchived()">
-                                {{showArchived ? 'Hide Archived' : 'Show Archived'}}
-                            </a>
-                        </td>
+                        <td class="col-sm-4 center-block" align="center"></td>
                     </tr>
                 </thead>
                 <tbody v-for='(owner, index) in (ownerItems)' :key="owner.id">
